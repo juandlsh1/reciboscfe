@@ -64,8 +64,4 @@ df_grouped = df.groupby(['Billing Period', 'PDF File']).sum().reset_index()
 df.to_csv("cfe.csv")
 
 
-# NOMBRE 0
-# NO SERV 5 (FILA 1 NUMEROS)
-# Periodo 6 NUMEROS HASTA EL FINAL
-# kWh 16
-# kW 17
+
